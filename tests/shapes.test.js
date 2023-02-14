@@ -1,4 +1,4 @@
-const { Circle, Triangle, Square } = require('../lib/shapes');
+const { Shape, Circle, Triangle, Square } = require('../lib/shapes');
 
 //Generated SVGs should match input accurately for each shape
 describe("Square", () => {
