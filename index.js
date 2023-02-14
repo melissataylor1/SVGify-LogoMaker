@@ -7,7 +7,8 @@ inquirer
     {
       type: 'input',
       name: 'logoName',
-      message: 'Please enter text, must not be more than 3 letters',
+      message: 'Please enter text for SVG Logo (MAX 3 characters)',
+    
     },
     {
       type: 'input',
