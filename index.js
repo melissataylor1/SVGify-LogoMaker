@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const {makeSVG} = require('./lib/makeSVG');
 
-
+//questions
 inquirer
   .prompt([
     {
@@ -26,4 +26,7 @@ inquirer
       choices: ['triangle', 'circle', 'square'],
     },
   ])
+
+  //pulling fs code that generates logo in seperate file for clarity
+  //this calls the seperate file
   .then(makeSVG);
