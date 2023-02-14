@@ -1,6 +1,4 @@
-
 const {prompt} = require('inquirer');
-const {questions} = require('./lib/questions');
-const {makeSVG} = require('./lib/makeSVG');
+const {questions, makeSVG} = require('./lib');
 
 prompt(questions).then(makeSVG);
